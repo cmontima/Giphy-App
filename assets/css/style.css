@@ -1,0 +1,48 @@
+#add-buttons-section {
+    background-color: gray; 
+    background-size: 100%;
+    float: center;
+}
+
+img {
+    height: 150px;
+    width: 150px;
+}
+
+
+.gifDiv {
+    float: left;
+    margin: 3px;
+}
+
+#copyright {
+    font-size: 14px;
+}
+
+#footer {
+	clear: both;
+	margin-top: 40px;
+	position: center;
+	bottom: 0;
+	left: 0;
+    text-align: center;
+    background-color: gray;
+}
+
+.btn {
+    margin: 10px;
+}
+
+#input-section {
+    text-align: center;
+}
+
+.jumbotron {
+    text-align: center;
+    width: auto;
+    height: 100px;
+}
+
+.display-container {
+    text-align: center;
+}

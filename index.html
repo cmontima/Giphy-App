@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>To Do App!</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <style>
+        #todo-item {
+        font-weight: 700;
+        font-size: 2em;
+      }
+    </style>
+</head>
+
+<body>
+
+    <div class="jumbotron">
+        <div class="container">
+            <h1>Giphyctionary</h1>
+        </div>
+    </div>
+
+    <form id="input-section">
+        <span id="gif-item">Add GIFs: <input id="gif" type="text"><input id="add-gif" value="Add" type="submit" class="btn btn-primary"><input
+                id="remove-gif" value="Remove" type="submit" class="btn btn-primary"></span>
+    </form>
+
+    <hr>
+
+    <div class="container">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <div id="gif-buttons"></div>
+        </div>
+    </div>
+
+    <div class="display-container">
+       
+            <div id="gif-display-view"></div>
+    
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/giphy-pruebas.js"></script>
+
+</body>
+
+</html>
